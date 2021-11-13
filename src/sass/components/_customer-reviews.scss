@@ -1,7 +1,19 @@
 .revievs {
     border: 1px solid #E1E1E1;
-    width: 926px;
-    height: 350px;
+        height: 350px;
+       
+    @media screen and (min-width: 328px){
+            width: 157px;
+       }
+    @media screen and (min-width: 780px){
+        width: 620px;
+}
+
+    @media screen and (min-width: 1280px){
+         width: 926px;
+    }
+}
+
     
 
 .revievs__img {
