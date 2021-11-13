@@ -2,13 +2,17 @@
     border: 1px solid #E1E1E1;
     width: 926px;
     height: 350px;
-}
+    
 
-.revievs__list {
+.revievs__img {
 width: 85px;
 height: 85px;
 border-radius: 44px;
+margin: auto;
+display: block;
+justify-content: center;
 }
+
 .revievs__list-text {
 width: 750px;
 height: 52px;
@@ -20,6 +24,23 @@ line-height: 186%;
 text-align: center;
 letter-spacing: 0.04em;
 color: #000000;
+position: relative;
+background-color: #E1E1E1;
+margin-left: 178px;
+margin-right: 176px;
+margin-top: 15px;
+margin-bottom: 15px;
+padding-top: 32px;
+padding-bottom: 32px;
+padding-left: 50px;
+padding-right: 54px;
+}
+.revievs__list-text {
+    position: absolute;
+    width: 813px;
+    border: 1px;
+    background-image: repeating-linear-gradient
+    (#E1E1E1 1px);
 }
 .elips {
 width: 4px;
@@ -52,6 +73,11 @@ font-size: 20px;
 line-height: 186%;
 text-align: center;
 color: #000000;
+display: block;
+margin: auto;
+justify-content: center;
+align-items: center;
+margin-top: 15px;
 }
 .revievs-btn {
 display: flex;
@@ -60,5 +86,5 @@ justify-content: center;
 align-items: center;
 width: 12px;
 height: 12px;
-background: #201c1c;
+background: #D9D9D9;
 } 
