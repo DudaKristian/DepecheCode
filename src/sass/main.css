@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+.semantical {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  opacity: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.button {
+  border-radius: 22px;
+  border: none;
+}
+
+.customer-reviews {
+  border: 1px solid #E1E1E1;
+  height: 350px;
+}
+
+@media screen and (min-width: 328px) {
+  .customer-reviews {
+    width: 157px;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .customer-reviews {
+    width: 620px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .customer-reviews {
+    width: 926px;
+  }
+}
+
+.customer-reviews__img {
+  width: 85px;
+  height: 85px;
+  border-radius: 44px;
+  margin: auto;
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.customer-reviews__text {
+  width: 750px;
+  height: 52px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 186%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #000000;
+  position: relative;
+  background-color: #E1E1E1;
+  margin-left: 178px;
+  margin-right: 176px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 50px;
+  padding-right: 54px;
+}
+
+.customer-reviews__text {
+  position: absolute;
+  width: 813px;
+  border: 1px;
+  background-image: repeating-linear-gradient #E1E1E1 1px;
+}
+
+.elips {
+  width: 4px;
+  height: 4px;
+  background: #C7133E;
+  position: relative;
+  display: block;
+}
+
+.elips::before {
+  content: '';
+  width: 4px;
+  height: 4px;
+  position: absolute;
+}
+
+.elips::after {
+  content: '';
+  width: 4px;
+  height: 4px;
+  position: absolute;
+}
+
+.customer-reviews__text-coment {
+  width: 172px;
+  height: 31px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 186%;
+  text-align: center;
+  color: #000000;
+  display: block;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+}
+
+.customer-reviews__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 12px;
+  height: 12px;
+  background: #D9D9D9;
+}
+/*# sourceMappingURL=main.css.map */

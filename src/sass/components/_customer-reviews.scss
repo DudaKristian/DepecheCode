@@ -1,4 +1,4 @@
-.revievs {
+.customer-reviews {
     border: 1px solid #E1E1E1;
         height: 350px;
        
@@ -16,7 +16,7 @@
 
     
 
-.revievs__img {
+.customer-reviews__img {
 width: 85px;
 height: 85px;
 border-radius: 44px;
@@ -25,7 +25,7 @@ display: block;
 justify-content: center;
 }
 
-.revievs__list-text {
+.customer-reviews__text {
 width: 750px;
 height: 52px;
 font-family: DM Sans;
@@ -47,7 +47,7 @@ padding-bottom: 32px;
 padding-left: 50px;
 padding-right: 54px;
 }
-.revievs__list-text {
+.customer-reviews__text {
     position: absolute;
     width: 813px;
     border: 1px;
@@ -75,7 +75,7 @@ display: block;
     position: absolute;
        }
 
-.revievs__list-coment{
+.customer-reviews__text-coment{
 width: 172px;
 height: 31px;
 font-family: DM Sans;
@@ -91,7 +91,7 @@ justify-content: center;
 align-items: center;
 margin-top: 15px;
 }
-.revievs-btn {
+.customer-reviews__btn {
 display: flex;
 margin: auto;
 justify-content: center;
