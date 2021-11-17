@@ -391,10 +391,34 @@
   fill: $button-red;
 }
 
+
 // .modal {
 //   position: absolute;
 //   width: 100%;
 //   height: 100%;
+
+.modal {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  // overflow-y: auto;
+  // overflow-x: hidden;
+  transition: all 0.8s ease 0s;
+  background-color: $main-background-soft-pink;
+}
+
+.modal__active {
+  opacity: 1;
+  visibility: visible;
+}
+// .modal__active {
+//   position: fixed;
+
 //   top: 0;
 //   left: 0;
 //   opacity: 0;
