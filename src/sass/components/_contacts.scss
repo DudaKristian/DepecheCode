@@ -283,26 +283,21 @@
 
 .contacts__button {
   margin-top: 54px;
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
+  display: flex;
 
-  @media screen and (min-width: 767px) {
-    margin-right: 79.55px;
-    margin-left: 79px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  @media screen and (max-width: 767px) {
+    // display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   @media screen and (min-width: 768px) {
     margin-top: 81px;
     // display: flex;
-    // justify-content: center;
+    justify-content: center;
   }
 
   @media screen and (min-width: 1280px) {
-    margin-top: 86px;
     // display: flex;
     // justify-content: center;
   }
@@ -329,11 +324,8 @@
   }
 }
 
-.contacts__btn--primary {
-  color: $button-white;
-  background-color: $button-red;
-
-  @media screen and (min-width: 767px) {
+.contacts__button-primary {
+  @media screen and (max-width: 767px) {
     margin-bottom: 10px;
   }
 
@@ -346,15 +338,34 @@
   }
 }
 
-.contacts__btn--primary:hover,
-.contacts__btn--primary:focus {
-  background-color: $button-hover-red;
+.contacts__btn--primary {
+  color: $button-white;
+  background-color: $button-red;
+
+  &:hover,
+  &:focus {
+    background-color: $button-hover-red;
+  }
+
+  // @media screen and (min-width: 767px) {
+  //   margin-bottom: 10px;
+  // }
+
+  // @media screen and (min-width: 768px) {
+  //   margin-right: 14.5px;
+  // }
+
+  // @media screen and (min-width: 1280px) {
+  //   margin-right: 15px;
+  // }
 }
 
-.contacts__btn--secondary {
-  color: $button-red;
-  background-color: $button-white;
+// .contacts__btn--primary:hover,
+// .contacts__btn--primary:focus {
+//   background-color: $button-hover-red;
+// }
 
+.contacts__button-secondary {
   @media screen and (min-width: 768px) {
     width: 174px;
   }
@@ -364,10 +375,28 @@
   }
 }
 
-.contacts__btn--secondary:hover,
-.contacts__btn--secondary:focus {
-  background-color: $button-hover-grey;
+.contacts__btn--secondary {
+  color: $button-red;
+  background-color: $button-white;
+
+  &:focus,
+  &:hover {
+    background-color: $button-hover-grey;
+  }
+
+  // @media screen and (min-width: 768px) {
+  //   width: 174px;
+  // }
+
+  // @media screen and (min-width: 1280px) {
+  //   width: 180px;
+  // }
 }
+
+// .contacts__btn--secondary:hover,
+// .contacts__btn--secondary:focus {
+//   background-color: $button-hover-grey;
+// }
 
 .btn-icon {
   display: inline-flex;
@@ -390,7 +419,6 @@
 .btn-icon--secondary {
   fill: $button-red;
 }
-
 
 // .modal {
 //   position: absolute;
